@@ -1,5 +1,41 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  text-align: center;
+  display: inline-block; /* Display links horizontally */
+  margin: 0 10px; /* Add some space between links */
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Center the text within #featured-property */
+#featured-property p {
+  width: 800px; /* Set a fixed width */
+  margin: 0 auto; /* Center the text horizontally */
+  text-align: center; /* Center the text within the fixed width container */
+  padding: 10px; /* Add some vertical spacing */
+}
+
+/* Make the #details section horizontal */
+#details div {
+  float: left; /* Float the divs to the left to make them horizontal */
+  width: 25%; /* Occupy 25% of the width of the bottom row */
+  background-color: #f2f2f2; /* Set background color */
+  text-align: center; /* Center the text within divs */
+  padding: 10px; /* Add some spacing around text */
 }
